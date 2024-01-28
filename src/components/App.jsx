@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import ContactForm from './contact-form/ContactForm';
 import ContactList from './contact-list/ContactList';
 import Filter from './filter/Filter';
-import styles from './Contactbook.module.css';
+import styles from './App.module.css';
 
 export const App = () => {
   const [state, setState] = useState({

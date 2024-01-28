@@ -1,0 +1,63 @@
+h1,
+h2 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-top: none;
+  border-left: none;
+  border-right-color: #48beac;
+  border-bottom-color: #48beac;
+}
+label {
+  font-size: 20px;
+}
+
+.PhonebookContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.addContactBtn:hover,
+.contactsListBtn:hover {
+  background-color: #48beac;
+  box-shadow: 1px 1px #8eeee2;
+  color: white;
+  border: none;
+}

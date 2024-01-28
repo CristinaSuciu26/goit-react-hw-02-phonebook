@@ -1,0 +1,34 @@
+.contactsListBtn {
+    width: 79px;
+    height: 27px;
+    background-color: rgb(243, 234, 234);
+    border-color: #faf7f7;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .contactsList li {
+    background-color: #78af7a;
+    color: #fff;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    width: 100%;
+  }
+  .contactsList {
+    margin-right: 50px;
+  }
+  
