@@ -22,3 +22,9 @@
   text-transform: capitalize;
   border-radius: 3px;
 }
+.addContactBtn:hover {
+  background-color: #48beac;
+  box-shadow: 1px 1px #8eeee2;
+  color: white;
+  border: none;
+}
